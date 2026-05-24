@@ -1,8 +1,13 @@
-__pycache__/ 
-*.pyc 
-*.pt 
-*.onnx 
-*.engine 
-outputs/ 
-datasets/ 
+__pycache__/
+*.pyc
+*.pt
+*.onnx
+*.engine
+*.cache
+engines/
+data/
+calib_images/
 .ipynb_checkpoints/
+# 注意: outputs/charts/ 要上传,所以不忽略整个outputs/
+outputs/*.txt
+outputs/*.json
